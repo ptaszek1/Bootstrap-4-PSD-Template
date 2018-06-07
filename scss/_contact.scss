@@ -1,0 +1,35 @@
+.contact-info {
+  .contact-fluid {
+    background-color: #f5f7fa;
+    .contact-container {
+      background-color: #f5f7fa;
+      .contact-row {
+        display: flex;
+        height: 40px;
+        .contact {
+          height: auto;
+          display: flex;
+          flex-wrap: nowrap;
+          p{
+            font-size: 12px;
+            padding: 10px;
+            cursor: pointer;
+            i {
+              font-size: 11px;
+            }
+          }
+        }
+        .social {
+          display: flex;
+          align-items: center;
+          justify-content: end;
+          i{
+            font-size: 11px;
+            padding: 0 10px 10px 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
