@@ -17,3 +17,39 @@
     }
   }
 }
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.first-image {
+  background-color: pink;
+  margin-bottom: 50px;
+  img {
+    width: 100%;
+  }
+}
+.second-image {
+  background-color: purple;
+  margin-bottom: 50px;
+  img {
+    width: 100%;
+  }
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  .dott {
+    margin: 10px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #506a85;
+    cursor: pointer;
+  }
+  .dott:nth-of-type(2) {
+    background-color: #00bc9c;
+  }
+}
