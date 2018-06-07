@@ -1,0 +1,64 @@
+.about-info {
+  display: flex;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  h1 {
+    font-size: 44px;
+    margin-top: 100px;
+    color: #506a85;
+  }
+  p {
+    margin-bottom: 100px;
+    color: #73879c;
+  }
+}
+
+.passion {
+  display: flex;
+  i {
+    font-size: 50px;
+    margin-right: 10px;
+    color: #00bc9c;
+  }
+  .passion-info {
+    h3 {
+      font-size: 24px;
+    }
+  }
+}
+.creati {
+  display: flex;
+  i {
+    font-size: 50px;
+    margin-right: 10px;
+    color: #00bc9c;
+  }
+  .creativity {
+    h3 {
+      font-size: 24px;
+    }
+  }
+}
+.quality {
+  display: flex;
+  i {
+    font-size: 50px;
+    margin-right: 10px;
+    color: #00bc9c;
+  }
+  .qualitys {
+    h3 {
+      font-size: 24px;
+    }
+    p {
+      
+    }
+  }
+}
