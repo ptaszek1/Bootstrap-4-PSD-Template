@@ -1,0 +1,19 @@
+.our-work {
+  background-color: #f2f5f7;
+  .work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    h1 {
+      color: #506a85;
+    }
+    p {
+      color: #73879c;
+    }
+  }
+}
