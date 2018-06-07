@@ -1,9 +1,39 @@
-.main-logo {
-  .logo-fluid {
-    background-image: url("../img/logo.jpg");
-    height: 880px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
+.logo-fluid {
+  background-image: url("../img/logo.jpg");
+  height: 880px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+.flex-pos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-logo h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 78px;
+}
+.main-logo p {
+  font-size: 24px;
+  color: #a3b1bf;
+}
+.main-logo button {
+  background-color: #00bc9c;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 60px 20px 60px;
+  margin-top: 40px;
 }
