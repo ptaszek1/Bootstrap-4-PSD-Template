@@ -1,7 +1,7 @@
 .menu-main {
   display: flex;
   align-items: center;
-  height: 112px;
+  height: auto;
   .menu-row {
     background-color: #fff;
     .logo {
@@ -16,7 +16,6 @@
         padding: 20px;
         display: flex;
         align-items: center;
-        margin-left: 50px;
         li {
           list-style: none;
           text-transform: uppercase;
@@ -40,5 +39,21 @@
         margin-right: 50px;
       }
     }
+  }
+}
+nav {
+  button {
+    position: absolute;
+    padding: 100px;
+    margin: 15px;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 1;
   }
 }
