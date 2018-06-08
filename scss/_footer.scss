@@ -1,6 +1,43 @@
 .footer {
   background-color: #283645;
+  .go-top {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #506a85;
+    position: relative;
+    i {
+      position: absolute;
+      right: 0;
+      padding: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      color: rgba(255,255,255,0.6);
+    }
+  }
   ul {
     background-color: #283645;
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
   }
+  li {
+    color: #707e8c;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    line-height: 22px;
+    text-align: right;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+  }
+}
+.rights {
+  color: #707e8c;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  line-height: 22px;
+  text-align: left;
+  padding: 20px;
 }
