@@ -6,6 +6,7 @@
     background-color: #fff;
     .logo {
       display: flex;
+      align-items: center;
       img {
         margin: auto;
       }
@@ -45,7 +46,7 @@ nav {
   button {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 70px 30px 20px 30px;
     z-index: 2;
   }
 }
