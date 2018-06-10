@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bootstrap PSD Template - Reen
 
 * Responsive website template, created with psd file.
@@ -41,3 +42,10 @@ Live Link [Here](https://ptaszek1.github.io/Bootstrap-PSD-Template/ "Bootstrap t
 * Bootstrap
 * jQuery
 
+=======
+"# Bootstrap-4-PSD-Template" 
+
+live:
+
+https://ptaszek1.github.io/Bootstrap-4-PSD-Template/
+>>>>>>> bc0b44297a0a123869c089ef82d172ae367b97c8
