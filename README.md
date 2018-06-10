@@ -40,10 +40,3 @@ Live Link [Here](https://ptaszek1.github.io/Bootstrap-PSD-Template/ "Bootstrap t
 * CSS
 * Bootstrap
 * jQuery
-
-=======
-"# Bootstrap-4-PSD-Template" 
-
-live:
-
-https://ptaszek1.github.io/Bootstrap-4-PSD-Template/
